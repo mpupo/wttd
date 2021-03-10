@@ -7,6 +7,9 @@ authors = ["Murilo Pupo de Oliveira <48927673+mpupo@users.noreply.github.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 django = "^3.1.7"
+python-decouple = "^3.4"
+dj-database-url = "^0.5.0"
+dj-static = "^0.0.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.2"
