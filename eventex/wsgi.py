@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/
 
 import os
 from dj_static import Cling
+from .settings import STATIC_ROOT
 
 from django.core.wsgi import get_wsgi_application
 
